@@ -3,9 +3,6 @@ module.exports = {
         "browser": true,
         "es6": true
     },
-    "extends": {
-        "plugin": "react/recommended"
-    },
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
