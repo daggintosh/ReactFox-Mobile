@@ -7,7 +7,7 @@ const App = () => {
   const refresh = () => setkey(imgkey + 1);
   return (
     <Fragment>
-      <StatusBar barStyle="default" />
+      <StatusBar barStyle="light-content" />
       <SafeAreaView style={{flex: 1,backgroundColor: '#111111'}}>
         <Image source={{uri: 'https://dagg.xyz/randomfox/images/' + (Math.floor(Math.random() * 123) + 1) + '.jpg'}} style={{flex: 1, height: undefined, width: undefined}} resizeMode="contain"/>
       </SafeAreaView>
