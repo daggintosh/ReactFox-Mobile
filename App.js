@@ -9,7 +9,7 @@ const App = () => {
     <Fragment>
       <StatusBar barStyle="light-content" />
       <SafeAreaView style={{flex: 1,backgroundColor: '#111111'}}>
-        <Image source={{uri: 'https://dagg.xyz/randomfox/images/' + (Math.floor(Math.random() * 123) + 1) + '.jpg'}} style={{flex: 1, height: undefined, width: undefined}} resizeMode="contain"/>
+        <Image source={{ uri: "https://dagg.xyz/randomfox/images/" + (Math.floor(Math.random() * 123) + 1) + ".jpg" }} style={{flex: 1, height: undefined, width: undefined}} resizeMode="contain"/>
       </SafeAreaView>
       <View style={{flex: 0.1, justifyContent: 'center', alignItems: "center", marginBottom: 0, backgroundColor: "#222222"}}>
         <TouchableOpacity onPress={refresh} style={{maxWidth: 50, alignItems: "center"}}>
@@ -19,6 +19,5 @@ const App = () => {
     </Fragment>
   );
 };
-
 
 export default App;
